@@ -17,9 +17,7 @@ add_filter('widget_title','modificaTitlu');
 function randomBanner() {
     $bannere = array(
     'http://placehold.it/350x80/ff0000/ffffff',
-    'http://placehold.it/350x80/00ff00/ffffff',
-    'http://placehold.it/350x80/0000ff/ffffff',
-    'http://placehold.it/350x80/ff00ff/ffffff'
+    'http://placehold.it/350x80/00ff00/ffffff'
     );
     
     $banner_selectat = $bannere[rand(0,3)];
