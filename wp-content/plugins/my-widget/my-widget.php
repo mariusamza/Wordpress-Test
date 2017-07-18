@@ -15,6 +15,4 @@ function randomJoke() {
     echo '- S-a uitat in priza.';
 }
 
-add_shortcode('test2_banner','randomTestBanner');
-
 
