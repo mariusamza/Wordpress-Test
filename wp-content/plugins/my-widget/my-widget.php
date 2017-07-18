@@ -8,5 +8,10 @@ Version: 0.1
 Author URI: https://swissacademy.eu
 */
 
+add_shortcode('random_joke','randomJoke');
 
+function randomJoke() {
+    echo '- De ce a murit melcul?';
+    echo '- S-a uitat in priza.';
+}
 
